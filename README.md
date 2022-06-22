@@ -27,8 +27,8 @@ There are scenarios of service automations. An explanation of these scenarios an
 
 
 # Auth - Token Scenarios
-| Scenario Name | Scenario Description | Steps | Risk | Precedence | Regression Type | Expected Result | Status |
+| Scenario Name | Scenario Description | Steps | Expected Result | Status |
 |-------------| ------ | ------| ------ | ------| ------ | ------ | ------ |
-| Fetch Token Informations - Success Fetch Token Information | This request fetches the id token and another authentication info with a registered email and correct password. | **_Given_** request data create with " email " and " password ". **_When_** a POST request is send to "https://europe-west3-test-goart.cloudfunctions.net/api/auth/token". **_Then_** the status code is 200. | High | High | Daily | Status Code 200 | OK |
+| Fetch Token Informations - Success Fetch Token Information | This request fetches the id token and another authentication info with a registered email and correct password. | **_Given_** request data create with " email " and " password ". **_When_** a POST request is send to "https://europe-west3-test-goart.cloudfunctions.net/api/auth/token". **_Then_** the status code is 200. | Status Code 200 | OK |
 
 ## _Karate Reports_
